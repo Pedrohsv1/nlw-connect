@@ -1,0 +1,28 @@
+POST http://localhost:3001/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Usuario Indicado3",
+  "email": "fulono.varela3@gmail.com",
+  "referrer": "9b284ae6-647b-4aed-937a-7e50a3dc5bfb"
+}
+
+###
+
+GET http://localhost:3001/invites/2062a5e5-14b9-4bbf-b924-ad10a432a2b7
+
+###
+
+GET http://localhost:3001/subscriber/2062a5e5-14b9-4bbf-b924-ad10a432a2b7/ranking/clicks
+
+###
+
+GET http://localhost:3001/subscriber/2062a5e5-14b9-4bbf-b924-ad10a432a2b7/ranking/count
+
+###
+
+GET http://localhost:3001/subscriber/2062a5e5-14b9-4bbf-b924-ad10a432a2b7/ranking/position
+
+###
+
+GET http://localhost:3001/ranking
